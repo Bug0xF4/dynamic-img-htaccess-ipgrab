@@ -1,5 +1,6 @@
 # Overview:
 PHP dynamic image IP logger utilizing htaccess mod_rewrite. Allows you to log IP addresses via a JPG file.
+
 Requirements:
 - Web-server with PHP installed
 - .htaccess file correctly configured with a mod_rewrite rule
