@@ -8,7 +8,9 @@ Requirements:
 # Setup:
 - Create a .htaccess file and have it stored in your webroot directory (/var/www/html)
 - Set the following rewrite rule within your .htaccess file:
-- `Options +FollowSymlinks RewriteEngine on RewriteRule lol.jpg /path/to/evil.php [NC]`
+`Options +FollowSymlinks
+RewriteEngine on
+RewriteRule lol.jpg /path/to/evil.php [NC]`
 - Add a valid JPG image to your webroot directory
 - Link or embed the JPG to log IP addresses
 
